@@ -1,0 +1,16 @@
+PODS:
+  - blinkoo-ios-components (0.0.1)
+
+DEPENDENCIES:
+  - blinkoo-ios-components (from `/Users/davide.quadrelli/IdeaProjects/blinkoo-app-sdk/ios`)
+
+EXTERNAL SOURCES:
+  blinkoo-ios-components:
+    :path: "/Users/davide.quadrelli/IdeaProjects/blinkoo-app-sdk/ios"
+
+SPEC CHECKSUMS:
+  blinkoo-ios-components: 6c2cbe770b8f4234102d2d9db23d5123a2394cbf
+
+PODFILE CHECKSUM: 0356c8bb9fa990ce79fcf2805eeceb58dc16afb5
+
+COCOAPODS: 1.16.2

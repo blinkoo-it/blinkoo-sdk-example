@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067C9535EB1C426425377DE7E716F2A8 /* BlinkooFeedLabelsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA173517686B38EE02C94E5F89B4EBD9 /* BlinkooFeedLabelsModel.swift */; };
+		096AA1B62C58202276E6F697DF64F32C /* blinkoo-ios-components-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C2B94148A73CD864220F03F53FE6 /* blinkoo-ios-components-dummy.m */; };
+		1CA18789AD3ADA2014C23C1F969CD303 /* FeedConfigurationChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C0DDAA9040C6740764AFB1650735E9 /* FeedConfigurationChannel.swift */; };
+		256AB1BE7FDA8B95542563FF8A6B3E63 /* FeedThemeChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C9B687163E028A5EC1970ABC2A74B /* FeedThemeChannel.swift */; };
+		25740F9290F431CA413D798B5C502863 /* BlinkooFeedInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAE1511982F6E6234669A5CBFC896F /* BlinkooFeedInsight.swift */; };
+		297B73641006175CB476BEF89F011292 /* FeedLabelChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F8BBE5EE1BDC11BC656DE31C56C78 /* FeedLabelChannel.swift */; };
+		2D4DA48E9BA3F5B1DCA11FDF863D0C89 /* Pods-blinkoo components example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6DBAE8EC8A81BB5C9E62461EAD347E /* Pods-blinkoo components example-dummy.m */; };
+		35DEDCE71F35841953CB7208867D5265 /* FeedAssetChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E94424176E907B9860B50F3517DE8DA /* FeedAssetChannel.swift */; };
+		3F036443FCD143B15D0FE96D2050FB8F /* BlinkooFeedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61DC6C60FD66639FDA5DB9475946A11 /* BlinkooFeedComponent.swift */; };
+		44EC53D748B82272ACFD1E20DB911480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		4CA9E01BD2CA290089C1500D644BDEB8 /* BlinkooFeedInisightMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C642FF1D5890CFAAD244317152FD824 /* BlinkooFeedInisightMethods.swift */; };
+		530EF8520E567C56CB27179E23B1C2A4 /* Pods-blinkoo components example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C07724C4BA1F4026BFEAFAADAF528A6A /* Pods-blinkoo components example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D672CCBA0CA2EEFF26B949CC3A07F4B /* BlinkooComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539DD659D6EDECFA054C8AD6D5EE337C /* BlinkooComponent.swift */; };
+		697A5502680411C9E03A2EF88ED8B312 /* BlinkooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF366F25F11E4F15DF64AD03A0390BA /* BlinkooViewController.swift */; };
+		7294F6F017607CB0482142DCF080F79F /* BlinkooFeedArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED560AE0BA20E9D3B9F06D5B97F307 /* BlinkooFeedArgs.swift */; };
+		88BDBECDF495469BACAD20734DC0C9D4 /* BlinkooFeedConfigurationException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E72049EE610E29B3077E1F02DBC41 /* BlinkooFeedConfigurationException.swift */; };
+		9CBEC5D73131DF050906BA1B9A418BEF /* blinkoo-ios-components-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA33F62AC0EE097A67B063F3F74405E /* blinkoo-ios-components-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F479296D92CD563DB30599E6B88E58D /* FeedInsightChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2495913A444D84635B7D2C3E3263C6E /* FeedInsightChannel.swift */; };
+		A12595DF83AF8C5B958D5ACA53235ACA /* FeedNavigationChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8101891326B98F6377F6E9AC4D890 /* FeedNavigationChannel.swift */; };
+		B7818328F2484AB1D118D4C293BF37DE /* BlinkooBaseChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F28271BE18B573A69E0468E5CAF1B /* BlinkooBaseChannel.swift */; };
+		BBB4565D192AE0F2EBFD6E811E782757 /* BlinkooMissingApiKeyException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8CE12DCB130AE2F4F4721DBEE0369 /* BlinkooMissingApiKeyException.swift */; };
+		BDA8BCD99E8FA99E6F58DF3820FF62D6 /* BlinkooFeedColorSchemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DEF810C94F045EBF5E67F835077D1 /* BlinkooFeedColorSchemeModel.swift */; };
+		C34B731E11731AE0D6CAF719C2812FEC /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D1824F3C0C083C1B1091BED0A4C0D2 /* NavigationExtension.swift */; };
+		E53A044BB9419F0823FBEC3AFC3BE7AD /* BlinkooConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CF738804BA295B32932EE9717E401 /* BlinkooConstants.swift */; };
+		E7A4BCF5899BF2DBFDF994FC591DB988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		F04C41AE197A2800884DF9F6FCCF4C31 /* BlinkooBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D659A27ED141C9684EA97C759367C8 /* BlinkooBaseModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94CB17D48941A7C7564985EE999BF33B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307F7B30070C45237D83B97123390A12;
+			remoteInfo = "blinkoo-ios-components";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F8BBE5EE1BDC11BC656DE31C56C78 /* FeedLabelChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedLabelChannel.swift; sourceTree = "<group>"; };
+		024CF738804BA295B32932EE9717E401 /* BlinkooConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkooConstants.swift; path = blinkoo_sdk/BlinkooConstants.swift; sourceTree = "<group>"; };
+		16B8CE12DCB130AE2F4F4721DBEE0369 /* BlinkooMissingApiKeyException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkooMissingApiKeyException.swift; sourceTree = "<group>"; };
+		1DDE19E08FF1B8EB7357238AB9725F3A /* Pods-blinkoo components example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-blinkoo components example-Info.plist"; sourceTree = "<group>"; };
+		245743B34DAA10FDF17BA57F4257B58B /* Pods-blinkoo components example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-blinkoo components example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		250E0211692ED3BF5AEB7A55CD936232 /* Pods-blinkoo components example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-blinkoo components example.modulemap"; sourceTree = "<group>"; };
+		2A34A3B9E32E8CDCB2F1C1A9DFB86C93 /* blinkoo-ios-components-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "blinkoo-ios-components-Info.plist"; sourceTree = "<group>"; };
+		2C642FF1D5890CFAAD244317152FD824 /* BlinkooFeedInisightMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkooFeedInisightMethods.swift; sourceTree = "<group>"; };
+		2E94424176E907B9860B50F3517DE8DA /* FeedAssetChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedAssetChannel.swift; sourceTree = "<group>"; };
+		37D1824F3C0C083C1B1091BED0A4C0D2 /* NavigationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FD8101891326B98F6377F6E9AC4D890 /* FeedNavigationChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedNavigationChannel.swift; sourceTree = "<group>"; };
+		448C9B687163E028A5EC1970ABC2A74B /* FeedThemeChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedThemeChannel.swift; sourceTree = "<group>"; };
+		49F308068D84FDACE4B4AB995E152998 /* blinkoo-ios-components.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "blinkoo-ios-components.release.xcconfig"; sourceTree = "<group>"; };
+		4FED560AE0BA20E9D3B9F06D5B97F307 /* BlinkooFeedArgs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkooFeedArgs.swift; sourceTree = "<group>"; };
+		5297EF858A0DA9F642C740308904054B /* Pods-blinkoo components example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-blinkoo components example-frameworks.sh"; sourceTree = "<group>"; };
+		539DD659D6EDECFA054C8AD6D5EE337C /* BlinkooComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkooComponent.swift; path = blinkoo_sdk/BlinkooComponent.swift; sourceTree = "<group>"; };
+		6F252A1349A7D20DA0E1824CA4B60F62 /* Pods-blinkoo components example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-blinkoo components example.release.xcconfig"; sourceTree = "<group>"; };
+		71AC246DDB55B8E53ADCCA89D177CB69 /* blinkoo-ios-components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "blinkoo-ios-components.debug.xcconfig"; sourceTree = "<group>"; };
+		7FB5C2B94148A73CD864220F03F53FE6 /* blinkoo-ios-components-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "blinkoo-ios-components-dummy.m"; sourceTree = "<group>"; };
+		8AF366F25F11E4F15DF64AD03A0390BA /* BlinkooViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkooViewController.swift; path = blinkoo_sdk/BlinkooViewController.swift; sourceTree = "<group>"; };
+		8E07024ED377C8F40ED929D99E739C34 /* blinkoo-ios-components-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "blinkoo-ios-components-prefix.pch"; sourceTree = "<group>"; };
+		9C7E72049EE610E29B3077E1F02DBC41 /* BlinkooFeedConfigurationException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkooFeedConfigurationException.swift; sourceTree = "<group>"; };
+		9D3EB2112EC1425617421C2FE6054102 /* blinkoo-ios-components.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "blinkoo-ios-components.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A61DC6C60FD66639FDA5DB9475946A11 /* BlinkooFeedComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkooFeedComponent.swift; sourceTree = "<group>"; };
+		B2BAE1511982F6E6234669A5CBFC896F /* BlinkooFeedInsight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkooFeedInsight.swift; sourceTree = "<group>"; };
+		B9DF1CD5446D26BA4BE1A3A5496B122B /* Pods-blinkoo components example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-blinkoo components example.debug.xcconfig"; sourceTree = "<group>"; };
+		C07724C4BA1F4026BFEAFAADAF528A6A /* Pods-blinkoo components example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-blinkoo components example-umbrella.h"; sourceTree = "<group>"; };
+		C4D5737EC531D233526C26EA421DCB92 /* Pods-blinkoo components example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-blinkoo components example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA173517686B38EE02C94E5F89B4EBD9 /* BlinkooFeedLabelsModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkooFeedLabelsModel.swift; sourceTree = "<group>"; };
+		CEA33F62AC0EE097A67B063F3F74405E /* blinkoo-ios-components-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "blinkoo-ios-components-umbrella.h"; sourceTree = "<group>"; };
+		D2A4200FAFD900D3B64C6C5E01F2F458 /* Pods-blinkoo components example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-blinkoo components example"; path = Pods_blinkoo_components_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C0DDAA9040C6740764AFB1650735E9 /* FeedConfigurationChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedConfigurationChannel.swift; sourceTree = "<group>"; };
+		E20DEF810C94F045EBF5E67F835077D1 /* BlinkooFeedColorSchemeModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkooFeedColorSchemeModel.swift; sourceTree = "<group>"; };
+		E2495913A444D84635B7D2C3E3263C6E /* FeedInsightChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedInsightChannel.swift; sourceTree = "<group>"; };
+		EC401A5681EC7B45C657FEA5381EA1DF /* blinkoo-ios-components */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "blinkoo-ios-components"; path = blinkoo_ios_components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6DBAE8EC8A81BB5C9E62461EAD347E /* Pods-blinkoo components example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-blinkoo components example-dummy.m"; sourceTree = "<group>"; };
+		EE793D61FD84C497745F66E00AE19906 /* blinkoo-ios-components.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "blinkoo-ios-components.modulemap"; sourceTree = "<group>"; };
+		F0D659A27ED141C9684EA97C759367C8 /* BlinkooBaseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkooBaseModel.swift; path = blinkoo_sdk/BlinkooBaseModel.swift; sourceTree = "<group>"; };
+		F82F28271BE18B573A69E0468E5CAF1B /* BlinkooBaseChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkooBaseChannel.swift; path = blinkoo_sdk/BlinkooBaseChannel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14D9FD991396D255B04D543D1478C9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EC53D748B82272ACFD1E20DB911480 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25743ADF2137430216876A4EBA6070A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A4BCF5899BF2DBFDF994FC591DB988 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1899CDB778590BAA44F1B4D35291112D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4FED560AE0BA20E9D3B9F06D5B97F307 /* BlinkooFeedArgs.swift */,
+				E20DEF810C94F045EBF5E67F835077D1 /* BlinkooFeedColorSchemeModel.swift */,
+				CA173517686B38EE02C94E5F89B4EBD9 /* BlinkooFeedLabelsModel.swift */,
+			);
+			name = model;
+			path = model;
+			sourceTree = "<group>";
+		};
+		2623D0931201828D7BE55595C33CA6CA /* Pods-blinkoo components example */ = {
+			isa = PBXGroup;
+			children = (
+				250E0211692ED3BF5AEB7A55CD936232 /* Pods-blinkoo components example.modulemap */,
+				245743B34DAA10FDF17BA57F4257B58B /* Pods-blinkoo components example-acknowledgements.markdown */,
+				C4D5737EC531D233526C26EA421DCB92 /* Pods-blinkoo components example-acknowledgements.plist */,
+				ED6DBAE8EC8A81BB5C9E62461EAD347E /* Pods-blinkoo components example-dummy.m */,
+				5297EF858A0DA9F642C740308904054B /* Pods-blinkoo components example-frameworks.sh */,
+				1DDE19E08FF1B8EB7357238AB9725F3A /* Pods-blinkoo components example-Info.plist */,
+				C07724C4BA1F4026BFEAFAADAF528A6A /* Pods-blinkoo components example-umbrella.h */,
+				B9DF1CD5446D26BA4BE1A3A5496B122B /* Pods-blinkoo components example.debug.xcconfig */,
+				6F252A1349A7D20DA0E1824CA4B60F62 /* Pods-blinkoo components example.release.xcconfig */,
+			);
+			name = "Pods-blinkoo components example";
+			path = "Target Support Files/Pods-blinkoo components example";
+			sourceTree = "<group>";
+		};
+		49EED0375511D177209DCD6E412C5FFF /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				2C642FF1D5890CFAAD244317152FD824 /* BlinkooFeedInisightMethods.swift */,
+			);
+			name = enum;
+			path = enum;
+			sourceTree = "<group>";
+		};
+		594C116C868AC84EF6CEA6F593084AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC401A5681EC7B45C657FEA5381EA1DF /* blinkoo-ios-components */,
+				D2A4200FAFD900D3B64C6C5E01F2F458 /* Pods-blinkoo components example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A366B1891E28246EEFDF93A8DE077BF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD6A90F3FC15C0DD6EFF13D1644AEEEA /* blinkoo-ios-components */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		82B184900D0591D6D75293FE672A5283 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				37D1824F3C0C083C1B1091BED0A4C0D2 /* NavigationExtension.swift */,
+			);
+			name = utils;
+			path = blinkoo_sdk/utils;
+			sourceTree = "<group>";
+		};
+		8466A0A043C7189339C83CFB353CDA5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE793D61FD84C497745F66E00AE19906 /* blinkoo-ios-components.modulemap */,
+				7FB5C2B94148A73CD864220F03F53FE6 /* blinkoo-ios-components-dummy.m */,
+				2A34A3B9E32E8CDCB2F1C1A9DFB86C93 /* blinkoo-ios-components-Info.plist */,
+				8E07024ED377C8F40ED929D99E739C34 /* blinkoo-ios-components-prefix.pch */,
+				CEA33F62AC0EE097A67B063F3F74405E /* blinkoo-ios-components-umbrella.h */,
+				71AC246DDB55B8E53ADCCA89D177CB69 /* blinkoo-ios-components.debug.xcconfig */,
+				49F308068D84FDACE4B4AB995E152998 /* blinkoo-ios-components.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../blinkoo-sdk-example/ios/Pods/Target Support Files/blinkoo-ios-components";
+			sourceTree = "<group>";
+		};
+		A6AC493C9170D39573E63A5808787361 /* exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				16B8CE12DCB130AE2F4F4721DBEE0369 /* BlinkooMissingApiKeyException.swift */,
+			);
+			name = exceptions;
+			path = blinkoo_sdk/exceptions;
+			sourceTree = "<group>";
+		};
+		A7A7B8046079C86CE9433A9B601C7CE7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9D3EB2112EC1425617421C2FE6054102 /* blinkoo-ios-components.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B469A02130F15532F77A2E3B40DF2B84 /* exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				9C7E72049EE610E29B3077E1F02DBC41 /* BlinkooFeedConfigurationException.swift */,
+			);
+			name = exceptions;
+			path = exceptions;
+			sourceTree = "<group>";
+		};
+		BD6A90F3FC15C0DD6EFF13D1644AEEEA /* blinkoo-ios-components */ = {
+			isa = PBXGroup;
+			children = (
+				F82F28271BE18B573A69E0468E5CAF1B /* BlinkooBaseChannel.swift */,
+				F0D659A27ED141C9684EA97C759367C8 /* BlinkooBaseModel.swift */,
+				539DD659D6EDECFA054C8AD6D5EE337C /* BlinkooComponent.swift */,
+				024CF738804BA295B32932EE9717E401 /* BlinkooConstants.swift */,
+				8AF366F25F11E4F15DF64AD03A0390BA /* BlinkooViewController.swift */,
+				A6AC493C9170D39573E63A5808787361 /* exceptions */,
+				E389D3C876FE7B87B94B61D1E30AB779 /* feed */,
+				A7A7B8046079C86CE9433A9B601C7CE7 /* Pod */,
+				8466A0A043C7189339C83CFB353CDA5F /* Support Files */,
+				82B184900D0591D6D75293FE672A5283 /* utils */,
+			);
+			name = "blinkoo-ios-components";
+			path = "/Users/davide.quadrelli/IdeaProjects/blinkoo-app-sdk/ios";
+			sourceTree = "<absolute>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6A366B1891E28246EEFDF93A8DE077BF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				594C116C868AC84EF6CEA6F593084AC9 /* Products */,
+				FBD23146310E22F7A6358CB1C5BEEBE0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFBC2302040F365868AAB1029AEC2B97 /* method_channel */ = {
+			isa = PBXGroup;
+			children = (
+				2E94424176E907B9860B50F3517DE8DA /* FeedAssetChannel.swift */,
+				D6C0DDAA9040C6740764AFB1650735E9 /* FeedConfigurationChannel.swift */,
+				E2495913A444D84635B7D2C3E3263C6E /* FeedInsightChannel.swift */,
+				003F8BBE5EE1BDC11BC656DE31C56C78 /* FeedLabelChannel.swift */,
+				3FD8101891326B98F6377F6E9AC4D890 /* FeedNavigationChannel.swift */,
+				448C9B687163E028A5EC1970ABC2A74B /* FeedThemeChannel.swift */,
+			);
+			name = method_channel;
+			path = method_channel;
+			sourceTree = "<group>";
+		};
+		E389D3C876FE7B87B94B61D1E30AB779 /* feed */ = {
+			isa = PBXGroup;
+			children = (
+				A61DC6C60FD66639FDA5DB9475946A11 /* BlinkooFeedComponent.swift */,
+				B2BAE1511982F6E6234669A5CBFC896F /* BlinkooFeedInsight.swift */,
+				49EED0375511D177209DCD6E412C5FFF /* enum */,
+				B469A02130F15532F77A2E3B40DF2B84 /* exceptions */,
+				DFBC2302040F365868AAB1029AEC2B97 /* method_channel */,
+				1899CDB778590BAA44F1B4D35291112D /* model */,
+			);
+			name = feed;
+			path = blinkoo_sdk/feed;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FBD23146310E22F7A6358CB1C5BEEBE0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2623D0931201828D7BE55595C33CA6CA /* Pods-blinkoo components example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4086FEE4CB6BBEFBA7BBF139DD0B4E83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530EF8520E567C56CB27179E23B1C2A4 /* Pods-blinkoo components example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB5880265BB18204CD5B101EC041A50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBEC5D73131DF050906BA1B9A418BEF /* blinkoo-ios-components-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		307F7B30070C45237D83B97123390A12 /* blinkoo-ios-components */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2F46ED4AD23504B89B681E05C25EBB /* Build configuration list for PBXNativeTarget "blinkoo-ios-components" */;
+			buildPhases = (
+				6AB5880265BB18204CD5B101EC041A50 /* Headers */,
+				7DF6DB597B11A3728FDE838780EB278D /* Sources */,
+				14D9FD991396D255B04D543D1478C9A9 /* Frameworks */,
+				214D6661AE020734A1A55F8AB735346B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "blinkoo-ios-components";
+			productName = blinkoo_ios_components;
+			productReference = EC401A5681EC7B45C657FEA5381EA1DF /* blinkoo-ios-components */;
+			productType = "com.apple.product-type.framework";
+		};
+		46EDC725A7F4C978BC6E16106A01D659 /* Pods-blinkoo components example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F414309A4BF94CF338E4B15E1A7356F4 /* Build configuration list for PBXNativeTarget "Pods-blinkoo components example" */;
+			buildPhases = (
+				4086FEE4CB6BBEFBA7BBF139DD0B4E83 /* Headers */,
+				3F6F94BB9D7D9A5624461815EC2AFB7F /* Sources */,
+				25743ADF2137430216876A4EBA6070A2 /* Frameworks */,
+				6C0D8AA81673B28A9D4C01D716CAEF8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3517CB65E9C7BD2D6E00ED3A7627A942 /* PBXTargetDependency */,
+			);
+			name = "Pods-blinkoo components example";
+			productName = Pods_blinkoo_components_example;
+			productReference = D2A4200FAFD900D3B64C6C5E01F2F458 /* Pods-blinkoo components example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 594C116C868AC84EF6CEA6F593084AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				307F7B30070C45237D83B97123390A12 /* blinkoo-ios-components */,
+				46EDC725A7F4C978BC6E16106A01D659 /* Pods-blinkoo components example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		214D6661AE020734A1A55F8AB735346B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0D8AA81673B28A9D4C01D716CAEF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6F94BB9D7D9A5624461815EC2AFB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4DA48E9BA3F5B1DCA11FDF863D0C89 /* Pods-blinkoo components example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF6DB597B11A3728FDE838780EB278D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096AA1B62C58202276E6F697DF64F32C /* blinkoo-ios-components-dummy.m in Sources */,
+				B7818328F2484AB1D118D4C293BF37DE /* BlinkooBaseChannel.swift in Sources */,
+				F04C41AE197A2800884DF9F6FCCF4C31 /* BlinkooBaseModel.swift in Sources */,
+				5D672CCBA0CA2EEFF26B949CC3A07F4B /* BlinkooComponent.swift in Sources */,
+				E53A044BB9419F0823FBEC3AFC3BE7AD /* BlinkooConstants.swift in Sources */,
+				7294F6F017607CB0482142DCF080F79F /* BlinkooFeedArgs.swift in Sources */,
+				BDA8BCD99E8FA99E6F58DF3820FF62D6 /* BlinkooFeedColorSchemeModel.swift in Sources */,
+				3F036443FCD143B15D0FE96D2050FB8F /* BlinkooFeedComponent.swift in Sources */,
+				88BDBECDF495469BACAD20734DC0C9D4 /* BlinkooFeedConfigurationException.swift in Sources */,
+				4CA9E01BD2CA290089C1500D644BDEB8 /* BlinkooFeedInisightMethods.swift in Sources */,
+				25740F9290F431CA413D798B5C502863 /* BlinkooFeedInsight.swift in Sources */,
+				067C9535EB1C426425377DE7E716F2A8 /* BlinkooFeedLabelsModel.swift in Sources */,
+				BBB4565D192AE0F2EBFD6E811E782757 /* BlinkooMissingApiKeyException.swift in Sources */,
+				697A5502680411C9E03A2EF88ED8B312 /* BlinkooViewController.swift in Sources */,
+				35DEDCE71F35841953CB7208867D5265 /* FeedAssetChannel.swift in Sources */,
+				1CA18789AD3ADA2014C23C1F969CD303 /* FeedConfigurationChannel.swift in Sources */,
+				9F479296D92CD563DB30599E6B88E58D /* FeedInsightChannel.swift in Sources */,
+				297B73641006175CB476BEF89F011292 /* FeedLabelChannel.swift in Sources */,
+				A12595DF83AF8C5B958D5ACA53235ACA /* FeedNavigationChannel.swift in Sources */,
+				256AB1BE7FDA8B95542563FF8A6B3E63 /* FeedThemeChannel.swift in Sources */,
+				C34B731E11731AE0D6CAF719C2812FEC /* NavigationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3517CB65E9C7BD2D6E00ED3A7627A942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "blinkoo-ios-components";
+			target = 307F7B30070C45237D83B97123390A12 /* blinkoo-ios-components */;
+			targetProxy = 94CB17D48941A7C7564985EE999BF33B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		141E6EDD666678D4C8850843EF56B1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F308068D84FDACE4B4AB995E152998 /* blinkoo-ios-components.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/blinkoo-ios-components/blinkoo-ios-components-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/blinkoo-ios-components/blinkoo-ios-components-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/blinkoo-ios-components/blinkoo-ios-components.modulemap";
+				PRODUCT_MODULE_NAME = blinkoo_ios_components;
+				PRODUCT_NAME = blinkoo_ios_components;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 6.0.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18BDC635B7BCE40ED516497F341DAE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DF1CD5446D26BA4BE1A3A5496B122B /* Pods-blinkoo components example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-blinkoo components example/Pods-blinkoo components example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-blinkoo components example/Pods-blinkoo components example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		52A1D0D126CF09588225BED40D2115C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F252A1349A7D20DA0E1824CA4B60F62 /* Pods-blinkoo components example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-blinkoo components example/Pods-blinkoo components example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-blinkoo components example/Pods-blinkoo components example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A509B4FC6D952C1B4116F88121B010A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AC246DDB55B8E53ADCCA89D177CB69 /* blinkoo-ios-components.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/blinkoo-ios-components/blinkoo-ios-components-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/blinkoo-ios-components/blinkoo-ios-components-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/blinkoo-ios-components/blinkoo-ios-components.modulemap";
+				PRODUCT_MODULE_NAME = blinkoo_ios_components;
+				PRODUCT_NAME = blinkoo_ios_components;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 6.0.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2F46ED4AD23504B89B681E05C25EBB /* Build configuration list for PBXNativeTarget "blinkoo-ios-components" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A509B4FC6D952C1B4116F88121B010A7 /* Debug */,
+				141E6EDD666678D4C8850843EF56B1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F414309A4BF94CF338E4B15E1A7356F4 /* Build configuration list for PBXNativeTarget "Pods-blinkoo components example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDC635B7BCE40ED516497F341DAE20 /* Debug */,
+				52A1D0D126CF09588225BED40D2115C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
