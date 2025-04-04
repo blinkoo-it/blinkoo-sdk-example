@@ -21,19 +21,24 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.lifecycleScope
-import com.blinkoo.blinkoo_components_example.ui.theme.BlinkooComponentsExampleTheme
 import com.blinkoo.sdk.feed.BlinkooFeedComponent
+import com.blinkoo.sdk.feed.BlinkooFeedConfiguration
+import com.blinkoo.sdk.feed.BlinkooSingleVideoComponent
 import com.blinkoo.sdk.feed.model.BlinkooFeedArgs
+import com.blinkoo.sdk.feed.model.BlinkooSingleVideoArgs
 import kotlinx.coroutines.launch
 
 class MainActivity : FragmentActivity() {
     val tag = this.javaClass.name
-    val apiKey = "API_KEY"
     override fun onCreate(savedInstanceState: Bundle?) {
         val feed = BlinkooFeedComponent(
             this,
-            apiKey
+            "YOUR_DOMAIN"
         )
+        val feedArgs = BlinkooFeedArgs()
+        val feedConfig = BlinkooFeedConfiguration(isCreatorEnabled = true)
+        val singleVideo = BlinkooSingleVideoComponent(this, "YOUR_DOMAIN")
+        val singleVideoArgs = BlinkooSingleVideoArgs(postId = "POST_ID")
         super.onCreate(savedInstanceState)
         setContent {
             val context = LocalContext.current
@@ -49,72 +54,103 @@ class MainActivity : FragmentActivity() {
                 )
             }
 
-            BlinkooComponentsExampleTheme {
-                Scaffold { padding ->
-                    Column(
+            Scaffold { padding ->
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(padding),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    // Button to start the feed Activity
+                    Button(
                         modifier = Modifier
-                            .fillMaxSize()
-                            .padding(padding),
-                        horizontalAlignment = Alignment.CenterHorizontally
+                            .wrapContentSize()
+                            .padding(16.dp),
+                        onClick = {
+                            lifecycleScope.launch {
+                                feed.startActivity(feedArgs, feedConfig)
+                            }
+                        }
                     ) {
-                        // Button to start the Activity
-                        Button(
-                            modifier = Modifier
-                                .wrapContentSize()
-                                .padding(16.dp),
-                            onClick = {
-                                lifecycleScope.launch {
-                                    feed.startActivity(BlinkooFeedArgs())
-                                }
-                            }
-                        ) {
-                            Text("Start feed activity")
-                        }
-
-                        // Button to start the Fragment
-                        Button(
-                            modifier = Modifier
-                                .wrapContentSize()
-                                .padding(16.dp),
-                            onClick = {
-                                fragmentManager?.let {
-                                    lifecycleScope.launch {
-                                        feed.startFragment(
-                                            it,
-                                            fragmentContainerId,
-                                            BlinkooFeedArgs()
-                                        )
-                                    }
-                                } ?: Log.e(tag, "FragmentManager not available")
-                            }
-                        ) {
-                            Text("Start feed fragment")
-                        }
-
-                        // Button to close the Fragment
-                        Button(
-                            modifier = Modifier
-                                .wrapContentSize()
-                                .padding(16.dp),
-                            onClick = {
-                                fragmentManager?.let {
-                                    feed.closeFragment(fragmentManager, fragmentContainerId)
-                                }
-                            }
-                        ) {
-                            Text("Close feed fragment")
-                        }
-
-                        // Layout to host the Fragment
-                        AndroidView(
-                            factory = { context ->
-                                frameLayout
-                            },
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .weight(1f) // Takes up remaining space
-                        )
+                        Text("Start feed activity")
                     }
+
+                    // Button to start the feed Fragment
+                    Button(
+                        modifier = Modifier
+                            .wrapContentSize()
+                            .padding(16.dp),
+                        onClick = {
+                            fragmentManager?.let {
+                                lifecycleScope.launch {
+                                    feed.startFragment(
+                                        it,
+                                        fragmentContainerId,
+                                        feedArgs,
+                                        feedConfig
+                                    )
+                                }
+                            } ?: Log.e(tag, "FragmentManager not available")
+                        }
+                    ) {
+                        Text("Start feed fragment")
+                    }
+                    // Button to start the feed Activity
+                    Button(
+                        modifier = Modifier
+                            .wrapContentSize()
+                            .padding(16.dp),
+                        onClick = {
+                            lifecycleScope.launch {
+                                singleVideo.startActivity(singleVideoArgs)
+                            }
+                        }
+                    ) {
+                        Text("Start single video activity")
+                    }
+                    // Button to start the single video Fragment
+                    Button(
+                        modifier = Modifier
+                            .wrapContentSize()
+                            .padding(16.dp),
+                        onClick = {
+                            fragmentManager?.let {
+                                lifecycleScope.launch {
+                                    singleVideo.startFragment(
+                                        it,
+                                        fragmentContainerId,
+                                        singleVideoArgs
+                                    )
+                                }
+                            } ?: Log.e(tag, "FragmentManager not available")
+                        }
+                    ) {
+                        Text("Start single video fragment")
+                    }
+
+                    // Button to close the Fragment
+                    Button(
+                        modifier = Modifier
+                            .wrapContentSize()
+                            .padding(16.dp),
+                        onClick = {
+                            fragmentManager?.let {
+                                feed.closeFragment(fragmentManager, fragmentContainerId)
+                            }
+                        }
+                    ) {
+                        Text("Close feed fragment")
+                    }
+
+                    // Layout to host the Fragment
+                    AndroidView(
+                        factory = { context ->
+                            frameLayout
+                        },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .weight(1f) // Takes up remaining space
+                    )
                 }
             }
         }
