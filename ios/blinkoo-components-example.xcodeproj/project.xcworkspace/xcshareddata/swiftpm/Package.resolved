@@ -1,0 +1,15 @@
+{
+  "originHash" : "bc381c85ee32e313ff8e5fd63657d05301d3ec5a9ebd06a81123d047e8002c47",
+  "pins" : [
+    {
+      "identity" : "blinkoo-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/blinkoo-it/blinkoo-ios-sdk",
+      "state" : {
+        "revision" : "713ff6851bafa0d94e4c6a9538f18d66d68d62eb",
+        "version" : "0.0.8"
+      }
+    }
+  ],
+  "version" : 3
+}

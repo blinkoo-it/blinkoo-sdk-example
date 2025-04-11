@@ -1,6 +1,0 @@
-framework module blinkoo_ios_components {
-  umbrella header "blinkoo-ios-components-umbrella.h"
-
-  export *
-  module * { export * }
-}
